@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://wallpaperset.com/w/full/a/f/9/441804.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px black;
+  color: #ffd700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+p {
+  font-size: 2em;
+  margin: 0;
+  text-shadow: 2px 2px black;
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(85, 85, 85, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  border: none; /* Remove border */
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px;
+  text-shadow: 2px 2px black;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent; /* Remove background */
+  width: 50%;
+}
+
+.paypal-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Counter Page Specific Styles */
+.counter-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-text {
+  font-size: 1.5em;
+}
+
+.counter {
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+}
+
+/* Additional custom styles can be added here */
+
